@@ -42,7 +42,7 @@ h1{
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 720px) {
     body{
         margin: 0 0.1%;
     }
@@ -121,7 +121,7 @@ footer{
     font-size: smaller;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 720px) {
     
     main{
         margin-top: 4rem;
