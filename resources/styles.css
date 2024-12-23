@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Proza Libre", "Open Sans", sans-serif;
+    margin: auto 20%;
+    display: grid;
+    grid: 10% 85% 5% / auto;
+}
+
+section {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: inline-block;
+    margin: auto 0.5rem;
+}
+
+header nav li{
+    display: inline-flex;
+    padding: 0 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    cursor: pointer;
+    color:maroon;
+    font-size: 1.05rem;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+}
+
+.about-me img{
+    float: right;
+    height: 15em;
+    width: auto;
+    border-radius: 10%;
+}
+
+.skill-type{
+    padding-right: 0.4rem;
+    font-style: italic;
+}
+
+.skills li{
+    list-style:square;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    margin-top: 0.7rem;
+    text-align: center;
+    font-size: smaller;
+}
