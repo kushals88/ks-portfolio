@@ -7,6 +7,7 @@ body{
     margin: auto 20%;
     display: grid;
     grid: 10% 85% 5% / auto;
+    height: auto;
 }
 
 section {
@@ -16,11 +17,12 @@ section {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 0.1rem 0;
 }
 
 header nav {
-    display: inline-block;
-    margin: auto 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.05rem;
 }
 
 header nav li{
@@ -32,12 +34,18 @@ header nav li{
 
 header nav li a{
     text-decoration: none;
+
 }
 
 header nav li a:hover{
     cursor: pointer;
     color:maroon;
-    font-size: 1.05rem;
+    font-size: 1.09rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
 }
 
 .about-me-container {
@@ -58,10 +66,18 @@ header nav li a:hover{
     border-radius: 10%;
 }
 
+.skills li {
+    list-style: square;
+}
+
 .skill-type{
     padding-right: 0.4rem;
     font-style: italic;
-    list-style:square;
+}
+
+.contact {
+    margin: 4rem auto;
+    display: block;
 }
 
 .contact-details{
@@ -70,7 +86,6 @@ header nav li a:hover{
 }
 
 footer{
-    margin-top: 0.7rem;
     text-align: center;
     font-size: smaller;
 }
